@@ -30,3 +30,5 @@ Tailwind CSS (or plain CSS for styling)
 
 Icons: Font Awesome/Lucide React)
 
+![image_alt](https://github.com/Suhani3008/SpotifyClone/blob/bf93bce0ffa14a25be5fab1e46d01989bedc9a91/SpotifyProjectImg.png)
+
