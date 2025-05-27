@@ -1,0 +1,120 @@
+.border{
+    margin: 3px;
+}
+* {
+    font-family: Arial, sans-serif;
+}
+
+
+
+.flex{
+    display: flex;
+}
+
+.justify-center{
+    justify-content: center;
+}
+
+.items-center{
+    align-items: center;
+}
+
+.bg-black{
+    background-color: black;
+    color: rgb(255, 255, 255);
+}
+
+.invert{
+    filter: invert(1);
+}
+
+.bg-grey{
+    background-color: rgb(26, 24, 24);
+}
+
+.rounded{
+    border-radius: 9px;
+}
+
+.m-1{
+    margin: 5px;
+}
+
+/* Apply to all scrollable elements */
+* {
+    scrollbar-width: none; /* Firefox: Remove scrollbar arrows */
+}
+
+/* For Webkit Browsers (Chrome, Edge, Safari) */
+*::-webkit-scrollbar {
+    width: 6px; /* Thin scrollbar */
+}
+
+*::-webkit-scrollbar-thumb {
+    background-color: black; /* Bold line */
+    border-radius: 0; /* No rounding for a sharp look */
+}
+
+*::-webkit-scrollbar-track {
+    background-color: transparent; /* Invisible track */
+}
+
+
+/* vol change  */
+
+.range input[type="range"] {
+    -webkit-appearance: none;
+    width: 100%;
+    background: transparent;
+}
+
+/* Slider track (black) */
+.range input[type="range"]::-webkit-slider-runnable-track {
+    height: 5px;
+    background: black;
+    border-radius: 10px;
+    border: none;
+}
+
+/* Slider thumb (black) */
+.range input[type="range"]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    height: 15px;
+    width: 15px;
+    background: black;
+    border-radius: 50%;
+    cursor: pointer;
+    margin-top: -5px; /* Align thumb with track */
+}
+
+/* Firefox slider styles (black) */
+.range input[type="range"]::-moz-range-track {
+    height: 5px;
+    background: black;
+    border-radius: 10px;
+    border: none;
+}
+
+.range input[type="range"]::-moz-range-thumb {
+    height: 15px;
+    width: 15px;
+    background: black;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+/* Internet Explorer */
+.range input[type="range"]::-ms-track {
+    height: 5px;
+    background: transparent;
+    border-color: transparent;
+    color: transparent;
+}
+
+.range input[type="range"]::-ms-thumb {
+    height: 15px;
+    width: 15px;
+    background: black;
+    border-radius: 50%;
+    cursor: pointer;
+}
